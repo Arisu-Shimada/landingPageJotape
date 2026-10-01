@@ -1,0 +1,10 @@
+{
+  "description": "Streamline your small business operations with an easy-to-use platform for issuing NF-e and NFC-e, managing sales, and organizing commercial information.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

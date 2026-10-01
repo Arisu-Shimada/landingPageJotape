@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jotapê — Sistema Fiscal Completo</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-container">
+      <div class="logo">
+        <div class="logo-icon" id="fundoLogo">
+          <img src="images/logoJotape.jpeg" class="logoJotape" alt="Jotapê Logo"/>
+        </div>
+        <span>Jotapê</span>
+      </div>    
+
+      <div class="nav-links hidden-mobile">
+        <a href="#recursos">Recursos</a>
+        <a href="#como-funciona">Como Funciona</a>
+        <a href="#depoimentos">Depoimentos</a>
+      </div>
+
+      <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20sistema%20Jotap%C3%AA." target="_blank" rel="noopener noreferrer" class="btn-nav">
+        Fale Conosco
+      </a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-bg-glow"></div>
+
+    <div class="hero-container">
+      <div class="hero-grid">
+        <div>
+          <div class="badge">
+            <div class="badge-dot"></div>
+            <span>Sistema Fiscal Completo</span>
+          </div>
+
+          <h1 class="hero-title">
+            Emita notas fiscais <span>sem complicação</span>
+          </h1>
+
+          <p class="hero-desc">
+            O Jotapê foi feito para quem quer focar no negócio, não em burocracia. NF-e, NFC-e e gestão comercial em um sistema simples e seguro.
+          </p>
+        </div>
+
+        <div class="hero-cta-box">
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20sistema%20Jotap%C3%AA." target="_blank" rel="noopener noreferrer" class="btn-whatsapp" id="whatsappButton">
+            <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="white">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+              <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.528 5.852L.057 23.457a.5.5 0 00.621.621l5.605-1.471A11.955 11.955 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.95 0-3.77-.53-5.33-1.452l-.382-.226-3.329.874.874-3.329-.226-.382A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+            </svg>
+            Quero conhecer pelo WhatsApp
+          </a>
+
+          <a href="#como-funciona" class="btn-secondary" id="faleButton">
+            Como funciona →
+          </a>
+
+          <div class="hero-features">
+            <div class="hero-feature-item">
+              <svg viewBox="0 0 20 20" fill="#29B6F6"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+              <span>Sem mensalidade de implantação</span>
+            </div>
+            <div class="hero-feature-item">
+              <svg viewBox="0 0 20 20" fill="#29B6F6"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+              <span>Suporte pelo WhatsApp</span>
+            </div>
+            <div class="hero-feature-item">
+              <svg viewBox="0 0 20 20" fill="#29B6F6"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+              <span>SEFAZ integrado</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-section">
+    <div class="stats-container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-value">5.000+</div>
+          <div class="stat-label">Empresas atendidas</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">2M+</div>
+          <div class="stat-label">Notas emitidas</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">98%</div>
+          <div class="stat-label">Aprovação dos clientes</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">24h</div>
+          <div class="stat-label">Suporte disponível</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="recursos" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Recursos</span>
+        <h2 class="section-title">Tudo o que sua empresa precisa em um só lugar</h2>
+        <p class="section-desc">Do cadastro à emissão da nota, o Jotapê cuida de cada etapa da sua operação fiscal e comercial.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h3>Emissão de NF-e</h3>
+          <p>Emita notas fiscais eletrônicas com poucos cliques. Totalmente integrado com a SEFAZ, sem complicação.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h3>Emissão de NFC-e</h3>
+          <p>Nota Fiscal ao Consumidor para o varejo. Rápida, simples e legal para cada venda no balcão.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h3>Cadastro de Produtos</h3>
+          <p>Gerencie seu catálogo com preços, descrições e NCM. Integrado diretamente à emissão das notas.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h3>Cadastro de Clientes</h3>
+          <p>Mantenha sua base de clientes organizada, com CPF/CNPJ, endereço e histórico de compras.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h3>Registro de Vendas</h3>
+          <p>Acompanhe cada venda em tempo real. Relatórios claros para entender o desempenho do seu negócio.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h3>Automação Fiscal</h3>
+          <p>Processos automáticos que eliminam retrabalho e reduzem erros. Seu tempo vale muito mais.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="como-funciona" class="section section-alt">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Como Funciona</span>
+        <h2 class="section-title">Três passos para emitir sua nota fiscal</h2>
+      </div>
+
+      <div class="steps-grid">
+        <div class="connector-line"></div>
+        <div class="step-card">
+          <div class="step-num">01</div>
+          <h3>Cadastre seus produtos e clientes</h3>
+          <p>Em minutos você configura o sistema com as informações do seu negócio. Sem precisar de técnico.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">02</div>
+          <h3>Registre suas vendas</h3>
+          <p>Ao realizar uma venda, selecione os produtos e o cliente. O sistema preenche tudo automaticamente.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">03</div>
+          <h3>Emita o documento fiscal</h3>
+          <p>Com um clique, a nota é transmitida à SEFAZ e enviada ao cliente. Rápido, seguro e legal.</p>
+        </div>
+      </div>
+
+      <div class="text-center" style="margin-top: 56px;">
+        <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20sistema%20Jotap%C3%AA." target="_blank" rel="noopener noreferrer" class="btn-primary">
+          <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="white">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.528 5.852L.057 23.457a.5.5 0 00.621.621l5.605-1.471A11.955 11.955 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.95 0-3.77-.53-5.33-1.452l-.382-.226-3.329.874.874-3.329-.226-.382A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+          </svg>
+          Quero começar agora
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST -->
+  <section class="section">
+    <div class="container">
+      <div class="trust-grid">
+        <div>
+          <span class="section-tag">Por que escolher o Jotapê</span>
+          <h2 class="section-title" style="margin-bottom: 32px;">Feito para quem não tem tempo a perder</h2>
+
+          <div class="trust-item">
+            <div class="trust-icon">🛡️</div>
+            <div>
+              <div class="trust-title">Segurança e conformidade</div>
+              <div class="trust-desc">Transmissão direta à SEFAZ com certificado digital. Seus dados protegidos e sua empresa sempre em conformidade.</div>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <div class="trust-icon">💬</div>
+            <div>
+              <div class="trust-title">Suporte humanizado</div>
+              <div class="trust-desc">Equipe de atendimento disponível pelo WhatsApp. Respostas rápidas por quem entende do seu dia a dia.</div>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <div class="trust-icon">⚡</div>
+            <div>
+              <div class="trust-title">Fácil de aprender</div>
+              <div class="trust-desc">Interface pensada para quem nunca usou um sistema fiscal. Em menos de um dia você já emite sua primeira nota.</div>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <div class="trust-icon">📊</div>
+            <div>
+              <div class="trust-title">Visão do seu negócio</div>
+              <div class="trust-desc">Relatórios simples que mostram suas vendas, produtos mais vendidos e desempenho comercial.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="trust-card">
+          <div class="trust-card-glow"></div>
+          <div class="trust-card-content">
+            <div class="trust-card-stat">100%</div>
+            <div class="trust-card-sub">Web — acessa de qualquer lugar</div>
+
+            <div class="trust-card-grid">
+              <div class="trust-card-box">
+                <div class="box-label">NF-e</div>
+                <div class="box-val">Modelo 55</div>
+              </div>
+              <div class="trust-card-box">
+                <div class="box-label">NFC-e</div>
+                <div class="box-val">Modelo 65</div>
+              </div>
+              <div class="trust-card-box">
+                <div class="box-label">SEFAZ</div>
+                <div class="box-val">Integrado</div>
+              </div>
+              <div class="trust-card-box">
+                <div class="box-label">Cert. Digital</div>
+                <div class="box-val">A1 e A3</div>
+              </div>
+              <div class="trust-card-box">
+                <div class="box-label">Estados</div>
+                <div class="box-val">Todo Brasil</div>
+              </div>
+              <div class="trust-card-box">
+                <div class="box-label">Suporte</div>
+                <div class="box-val">WhatsApp</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="depoimentos" class="section section-alt">
+    <div class="container">
+      <div class="section-header text-center" style="margin-bottom: 56px;">
+        <span class="section-tag">Depoimentos</span>
+        <h2 class="section-title">Quem usa recomenda</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Antes eu tinha medo de emitir nota. Hoje faço sozinha, sem ajuda de ninguém. O sistema é simples demais."</p>
+          <div class="testimonial-user">
+            <div class="avatar">A</div>
+            <div>
+              <div class="user-name">Dona Aparecida</div>
+              <div class="user-role">Mercearia São João — SP</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Economizei tempo e dinheiro. Não preciso mais pagar contador para emitir nota toda hora."</p>
+          <div class="testimonial-user">
+            <div class="avatar">R</div>
+            <div>
+              <div class="user-name">Roberto Alves</div>
+              <div class="user-role">Loja de Materiais de Construção — MG</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Atendimento pelo WhatsApp é muito bom. Qualquer dúvida que tive, resolveram na hora."</p>
+          <div class="testimonial-user">
+            <div class="avatar">F</div>
+            <div>
+              <div class="user-name">Fernanda Souza</div>
+              <div class="user-role">Distribuidora de Alimentos — PR</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="cta-bg-grid"></div>
+    <div class="cta-bg-glow"></div>
+    <div class="cta-container">
+      <h2 class="cta-title">Pronto para simplificar sua emissão fiscal?</h2>
+      <p class="cta-desc">Fale agora com nossa equipe pelo WhatsApp e descubra como o Jotapê pode transformar a rotina da sua empresa.</p>
+      <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20sistema%20Jotap%C3%AA." target="_blank" rel="noopener noreferrer" class="btn-whatsapp-lg">
+        <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="white">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+          <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.528 5.852L.057 23.457a.5.5 0 00.621.621l5.605-1.471A11.955 11.955 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.95 0-3.77-.53-5.33-1.452l-.382-.226-3.329.874.874-3.329-.226-.382A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+        </svg>
+        Falar com especialista no WhatsApp
+      </a>
+      <p class="cta-footer-text">Atendimento rápido · Sem compromisso · Totalmente gratuito</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="logo">
+          <div class="logo-icon-sm">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <span>Jotapê</span>
+        </div>
+        <p class="footer-tagline">Sistema de Automação Comercial e Emissão Fiscal</p>
+        <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20sistema%20Jotap%C3%AA." target="_blank" rel="noopener noreferrer" class="footer-link">
+          <svg class="whatsapp-icon-sm" viewBox="0 0 24 24" fill="#29B6F6">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.528 5.852L.057 23.457a.5.5 0 00.621.621l5.605-1.471A11.955 11.955 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.95 0-3.77-.53-5.33-1.452l-.382-.226-3.329.874.874-3.329-.226-.382A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+          </svg>
+          Fale conosco
+        </a>
+      </div>
+      <p class="copyright">© <span id="year"></span> Jotapê Sistema Emissor Fiscal. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20sistema%20Jotap%C3%AA." target="_blank" rel="noopener noreferrer" title="Fale conosco no WhatsApp" class="whatsapp-float">
+    <svg style="width:30px;height:30px;" viewBox="0 0 24 24" fill="white">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.528 5.852L.057 23.457a.5.5 0 00.621.621l5.605-1.471A11.955 11.955 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.95 0-3.77-.53-5.33-1.452l-.382-.226-3.329.874.874-3.329-.226-.382A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
